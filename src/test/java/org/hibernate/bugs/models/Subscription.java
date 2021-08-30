@@ -5,6 +5,7 @@ import java.io.Serializable;
 
 
 @Entity
+// SecondaryTable fails with: org.hibernate.AnnotationException: SecondaryTable JoinColumn cannot reference a non primary key
 //@SecondaryTable(name="OrganizationProduct", pkJoinColumns={
 //        @PrimaryKeyJoinColumn(name="organization_id", referencedColumnName="organization_id"),
 //        @PrimaryKeyJoinColumn(name="product_sku", referencedColumnName="product_sku")
